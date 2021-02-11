@@ -1,8 +1,8 @@
 # Terrain Detailer
-The Terrain Detailer is able to take images like this
+The Terrain Detailer is able to take images like this  
 ![Old Image](../images/terrain%20detailer/terrain_generation_test_old.jpg)  
 
-and turn them into images like this
+and turn them into images like this  
 ![New Image](../images/terrain%20detailer/terrain_generation_test.jpg)
 
 ### Requirements
@@ -40,20 +40,21 @@ Any pixel that does not have one of these colors the detailer will ignore. Conve
 color will be converted to its actual terrain color.
 
 ### Versions
-There are two versions in here: the normal terrain detailer and the simple one. The normal terrain detailer uses Perlin
-noise to create the output image.  
+There are two versions in here: the normal terrain detailer and the simple one.  
 
-**NOTE**: I would not recommend running the normal terrain detailer on the entire map. Because of the large amount of
+1. The normal terrain detailer uses Perlin noise to create the output image.  
+
+   - **NOTE**: I would not recommend running the normal terrain detailer on the entire map. Because of the large amount of
 information that would have to be stored, you **may** run out of RAM and get a MemoryError (I got it with 16 gigs of RAM).
-Instead, run it on smaller sections of the map.
+Instead, run it on smaller sections of the map by making new .bmp files.
 
-**NOTE**: Additionally, because of how the math and indexing is currently implemented ensure that both the width and 
+   - **NOTE**: Additionally, because of how the math and indexing is currently implemented ensure that both the width and 
 height of the file you are pulling from are even numbers.  
 
-The simple terrain detailer just randomly samples the specific terrain. For this one, you should be able to pass through
+2. The simple terrain detailer just randomly samples the specific terrain. For this one, you should be able to pass through
 your entire terrain map should you wish.
 
-**NOTE**: The simple terrain detailer is not fully implemented at the moment. Please do not use it
+   - **NOTE**: The simple terrain detailer is not fully implemented at the moment. Please do not use it
 
 ### Current Status
 Normal (Perlin) Detailer:

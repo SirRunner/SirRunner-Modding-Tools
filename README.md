@@ -16,11 +16,11 @@ All of the required Python modules are in requirements.txt.
 3. Extract the zip file that you downloaded (doesn't really matter where)
 4. Move the contents of the unzipped file into your project directory. By default, the directory is 
    `C:\Users\USERNAME\PyCharmProjects\PROJECTNAME`
-5. In the lower left corner you should see something like this:
+5. In the lower left corner you should see something like this:  
    ![Lower Left Corner](images/lower_left_corner.JPG)  
    If you don't see that, and only the square in the corner, click the square
 6. Click on the Terminal button, type `pip install -r requirements.txt` and hit enter
-7. After it's done type `pip list` and hit enter. The results should be something like this:
+7. After it's done type `pip list` and hit enter. The results should be something like this:  
    ![Pip List](images/pip_list.JPG)
    
 ### Contents
