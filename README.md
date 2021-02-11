@@ -26,8 +26,8 @@ All of the required Python modules are in requirements.txt.
 ### Contents
 Current:
  - Terrain Detailer
-  - Perlin Noise Detailer
-  - Simple Random Choice Detailer
+   1. Perlin Noise Detailer
+   2. Simple Random Choice Detailer
 
 In Progress:
  - History File Generator
