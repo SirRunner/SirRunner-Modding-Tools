@@ -72,7 +72,7 @@ Normal (Perlin) Detailer:
    - Jungle
    - Desert
    - Coastal Desert
-   - Ability to dictate where denser Forest and Woods lie
+   - Ability to dictate where denser Forest, Jungle and Woods lie
   
 Simple Detailer:
  - Currently Supports:
@@ -89,5 +89,5 @@ Simple Detailer:
    - Jungle
    - Desert
    - Coastal Desert
-   - Ability to dictate where denser Forest and Woods lie
+   - Ability to dictate where denser Forest, Jungle and Woods lie
    - Ability to dictate add non-snow covered mountains

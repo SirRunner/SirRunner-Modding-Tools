@@ -1,7 +1,6 @@
 # Please read the README in this folder prior to user this tool
 from terrain_detailer.src.perlin_terrain_generator import generate_terrain
 
-
 # Change this variable's path to point towards your input file
 # Assuming a default installation, this file's location is
 # C:\Users\USERNAME\PyCharmProjects\PROJECTNAME\terrain_detailer\terrain_generator.py
