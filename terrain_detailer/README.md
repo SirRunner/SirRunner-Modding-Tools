@@ -9,7 +9,7 @@ and turn them into images like this
 Python 3.8
 - Pillow Module
 
-*If you followed the provided installation instructions for the repository, you can ignore the requirements above this
+*If you followed the provided installation instructions for the repository, you can ignore the above requirements
 as you have already installed them*  
 
 Your terrain textures must follow a similar pattern as vanilla Victoria 2 (texture 0-3 must be arctic, 4-7 plains, etc.)  
@@ -18,8 +18,8 @@ Additionally, textures 26, 27, 30, 31 must be snow covered mountains, and 61 - 6
 
 ### Usage
  - Input file must be an image. I would recommend a .bmp (have not encountered any problems with .bmp files)
- - There is a variable with a comment that you must change to your input file
- - *Optionally* you can change the output file variable
+ - *Required* you must change the input file variable (line 14)
+ - *Optionally* you can change the output file and folder variables (lines 19 and 20)
  - Outputs a detailed terrain to the specified file
  
 The output file is **not** in the correct format to be directly read by the engine. You will have messed up terrain

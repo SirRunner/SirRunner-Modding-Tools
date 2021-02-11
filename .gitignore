@@ -139,4 +139,4 @@ map.csv
 sea_provinces.txt
 
 # Output files
-terrain_detailer/output_terrain.bmp
+output/

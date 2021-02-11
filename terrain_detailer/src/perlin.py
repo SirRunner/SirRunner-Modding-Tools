@@ -1,3 +1,5 @@
+# This code was taken from this link: https://github.com/hnhaefliger/pyTerrain
+
 import math, random
 
 class noise:

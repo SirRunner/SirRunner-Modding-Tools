@@ -1,4 +1,6 @@
-from terrain_detailer.perlin import noise
+# This code was taken from https://github.com/hnhaefliger/pyTerrain/blob/master/terrain.py
+# and adapted to work for a terrain detailer
+from terrain_detailer.src.perlin import noise
 import math
 
 
