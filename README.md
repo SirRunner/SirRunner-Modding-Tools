@@ -1,4 +1,9 @@
 # SirRunner's Modding Tools
+ - Please note that what is released on here is code that I have made for my own modding experience.
+ - Because of the way this is currently being developed, be prepared for bugs. Potentially lots of bugs.
+ - By no means am I a GUI person. Because of this, don't expect a GUI any time soon.
+ - At the moment, to set input files and such, you will have to go into the code and change a variable or two. Nothing
+   too terrible to do. Hopefully the comments and READMEs are enough to help understanding.
 
 ### Requirements
 Python 3.8
