@@ -123,3 +123,18 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+.idea
+adjacencies generator.py
+definition.csv
+History file creation.py
+history_provinces wiping.py
+land_provinces.txt
+localisation.py
+map validator.py
+map.csv
+perlin.py
+sea_provinces.txt
+terrain_generator_simple.py
+terrain_generator.py
+terrain.py
