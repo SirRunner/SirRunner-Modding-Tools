@@ -6,7 +6,7 @@
    too terrible to do. Hopefully the comments and READMEs are enough to help understanding.
 
 ### Requirements
-Python 3.8
+[Python 3.8](https://www.python.org/downloads/)
  - Map Validator and Terrain Detailer
    - Pillow Module
  - History File Creator
