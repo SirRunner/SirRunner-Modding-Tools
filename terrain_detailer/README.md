@@ -18,12 +18,12 @@ Additionally, textures 26, 27, 30, 31 must be snow covered mountains, and 61 - 6
 
 ### Usage
  - Input file must be an image. I would recommend a .bmp (have not encountered any problems with .bmp files)
- - *Required* you must change the input file variable (line 14)
- - *Optionally* you can change the output file and folder variables (lines 19 and 20)
+ - **Required** you must change the input file variable (line 7)
+ - **Optional** you can change the output file and folder variables (lines 13 and 14); **Required** if you changed your installation location
  - Outputs a detailed terrain to the specified file
  
 The output file is **not** in the correct format to be directly read by the engine. You will have messed up terrain
-if you do not convert the terrain to the correct type of .bmp file.
+if you do not convert the terrain to the correct type of .bmp file. I suggest using GIMP for this.
 
 The following are the specific RGB colors associated with each type of supported terrain:
  - 47 116 0 = farmland
