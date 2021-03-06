@@ -131,7 +131,7 @@ dmypy.json
 adjacencies generator.py
 definition.csv
 land_provinces.txt
-localisation.py
+localization.py
 map validator.py
 sea_provinces.txt
 map_size_change.py
