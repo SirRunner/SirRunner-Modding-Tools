@@ -130,10 +130,10 @@ dmypy.json
 # WIP files
 adjacencies generator.py
 definition.csv
-History file creation.py
-history_provinces wiping.py
+History File Functions/History file creation.py
+History File Functions/history_provinces wiping.py
 land_provinces.txt
-localisation.py
+History File Functions/localisation.py
 map validator.py
 map.csv
 sea_provinces.txt
