@@ -137,6 +137,7 @@ localisation.py
 map validator.py
 map.csv
 sea_provinces.txt
+map_size_change.py
 
 # Output files
 output/
