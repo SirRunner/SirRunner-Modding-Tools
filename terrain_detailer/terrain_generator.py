@@ -1,4 +1,4 @@
-# Please read the README in this folder prior to user this tool
+# Please read the README in this folder prior to using this tool
 from terrain_detailer.src.perlin_terrain_generator import generate_terrain
 
 # Change this variable's path to point towards your input file
@@ -12,8 +12,8 @@ username = "USERNAME"
 # Changing these variables is optional. However, if you changed your
 # installation, changing these variables is required.
 # By default, the output file will show up in
-# C:\Users\USERNAME\PyCharmProjects\PROJECTNAME\output\output_file
-output_folder = f"C:/Users/{username}/PyCharmProjects/modding_tools/output/output_file"
+# C:\Users\USERNAME\PyCharmProjects\modding_tools\output\output_file
+output_folder = f"C:/Users/{username}/PyCharmProjects/modding_tools/output"
 output_file = "terrain_output.bmp"
 
 
