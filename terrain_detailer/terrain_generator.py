@@ -10,7 +10,7 @@ input_file = "C:/Program Files (x86)/Steam/steamapps/common/Victoria 2/mod/TTA/p
 # installation, changing these variables is required.
 # By default, the output file will show up in
 # C:\Users\USERNAME\PyCharmProjects\modding_tools\output\output_file
-output_folder = "output"
+output_folder = "../output"
 output_file = "terrain_output.bmp"
 
 
