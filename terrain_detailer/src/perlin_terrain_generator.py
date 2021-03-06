@@ -27,4 +27,4 @@ def generate_terrain(input_file, output_folder, output_file):
 
     if not path.exists(output_folder):
         makedirs(output_folder)
-    terrain_im.save(f"{output_folder}{output_file}")
+    terrain_im.save(f"{output_folder}/{output_file}")
