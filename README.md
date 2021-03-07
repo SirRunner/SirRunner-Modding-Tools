@@ -33,9 +33,8 @@ Current:
  - Terrain Detailer
    1. Perlin Noise Detailer
    2. Simple Random Choice Detailer
+ - History File and Localisation Generator
 
 In Progress:
- - History File Generator
  - Map Validator
- - Map Localisation Generator
  - Adjacencies Generator
