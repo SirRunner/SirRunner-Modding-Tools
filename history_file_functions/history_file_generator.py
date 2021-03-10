@@ -4,7 +4,7 @@ from history_file_functions.src.history_file_creation import generate_history_fi
 # Change this variable's path to point towards your input file
 # For example:
 # "C:/Program Files (x86)/Steam/steamapps/common/Victoria 2/mod/LOTR/terrain_generation_test_old.bmp"
-input_file = "C:/Users/Harrison Greene/Downloads/Provinces - Sheet1.csv"
+input_file = "C:/Users/USERNAME/Downloads/Provinces - Sheet1.csv"
 
 # Change this varaible's path to point towards your mod's path
 mod_folder = "C:/Program Files (x86)/Steam/steamapps/common/Victoria 2/mod/TTA"
@@ -15,7 +15,7 @@ directory = "middle earth"
 # Change these variables to the starting and ending ids that the file generator makes.
 # For instance, starting_id = 1 and ending_id = 5 would make 5 history files (1, 2, 3, 4, 5)
 starting_id = 1
-ending_id = 479
+ending_id = 513
 
 # Change this variable to the default rgo for ids not defined within your input file.
 default_rgo = "food"
