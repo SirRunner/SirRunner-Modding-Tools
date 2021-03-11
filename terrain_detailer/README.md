@@ -17,7 +17,7 @@ Your terrain textures must follow a similar pattern as vanilla Victoria 2 (textu
 Additionally, textures 26, 27, 30, 31 must be snow covered mountains, and 61 - 64 must be non-snowy mountains.
 
 ### Usage
- - Input file must be an image. I would recommend a .bmp (have not encountered any problems with .bmp files)
+ - Input file must be an image. I would recommend a .bmp (have not encountered any problems with 24 bit .bmp files)
  - **Required** you must change the input file variable (line 7)
  - **Optional** you can change the output file and folder variables (lines 13 and 14); **Required** if you changed your installation location
  - Outputs a detailed terrain to the specified file
@@ -35,6 +35,7 @@ The following are the specific RGB colors associated with each type of supported
  - 132 16 35 = grassland
  - 40 38 20 = conifer_forest
  - 101 147 20 = deciduous_forest
+ - 255 237 76 = desert
  
 Any pixel that does not have one of these colors the detailer will ignore. Conversely, any pixel that has one of the above
 color will be converted to its actual terrain color.
@@ -67,10 +68,10 @@ Normal (Perlin) Detailer:
    - Grassland (Plains)
    - Conifer Forest (Forest)
    - Deciduous Forest (Woods)
+   - Desert
  - Coming soon:
    - Arctic
    - Jungle
-   - Desert
    - Coastal Desert
    - Ability to dictate where denser Forest, Jungle and Woods lie
   

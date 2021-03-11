@@ -94,6 +94,6 @@ terrain = {
     (170, 116, 0): steppe,
     (): jungle,
     (0, 78, 58): marsh,
-    (): desert,
+    (255, 237, 76): desert,
     (): coastal_desert
 }
