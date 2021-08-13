@@ -128,13 +128,17 @@ dmypy.json
 .idea/
 
 # WIP files
-adjacencies generator.py
-definition.csv
-land_provinces.txt
+adjacencies_generator/adjacencies generator.py
+map_validator/definition.csv
+map_validator/land_provinces.txt
 localization.py
-map validator.py
-sea_provinces.txt
+map_validator/map validator.py
+map_validator/sea_provinces.txt
 map_size_change.py
+general_randomizer/
+event_generator/
+pop_generator/
+file_copier.py
 
 # Output files
 output/
