@@ -54,9 +54,9 @@ steppe = {
     2: (0x3e, 0x02, 0x05),  # 38
     3: (0x27, 0x00, 0x02)   # 39
 }
-jungle = {
+lothlorien = {
     0: (0x76, 0xf5, 0xd9),  # 40
-    1: (0xd1, 0xdc, 0xc1),  # 41
+    1: (0x61, 0xdc, 0xc1),  # 41
     2: (0x38, 0xc7, 0xa7),  # 42
     3: (0x30, 0xaf, 0x93)   # 43
 }
@@ -72,18 +72,36 @@ desert = {
     2: (0xce, 0xa9, 0x63),  # 50
     3: (0xae, 0x88, 0x43)   # 51
 }
-coastal_desert = {
+desert_hill = {
     0: (0x96, 0x71, 0x29),  # 52
     1: (0x7b, 0x5a, 0x1b),  # 53
     2: (0x65, 0x47, 0x07),  # 54
     3: (0x49, 0x32, 0x06)   # 55
+}
+mordor_mountain = {
+    0: (0xec, 0xec, 0xec), # 0
+    1: (0x56, 0x56, 0x56), # 5
+    2: (0x4e, 0x4e, 0x4e), # 6
+    3: (0x38, 0x38, 0x38)  # 7
+}
+mordor_hill = {
+    0: (0xeb, 0xb3, 0xe9), # 24
+    1: (0xd5, 0x90, 0xc7), # 25
+    2: (0xc0, 0x5a, 0x75), # 28
+    3: (0xad, 0x3b, 0x53)  # 29
+}
+mordor_grassland = {
+    0: (0x9c, 0x8b, 0xe4), # 56
+    1: (0x88, 0x77, 0xd2), # 57
+    2: (0x75, 0x63, 0xc2), # 58
+    3: (0x50, 0x41, 0x92)  # 59
 }
 
 
 # This is the mapping of input file colors to output file colors (there are 4 potential output file colors per terrain).
 # Unless you know what you are doing, I would suggest that you do not touch this code.
 terrain = {
-    (): arctic,  # Add in arctic color
+    (64, 64, 64): arctic,
     (47, 116, 0): farmland,
     (40, 38, 20): conifer_forest,
     (79, 150, 210): hills,
@@ -92,8 +110,11 @@ terrain = {
     (255, 200, 238): low_mountain,
     (132, 16, 35): grassland,
     (170, 116, 0): steppe,
-    (): jungle,
+    (101, 255, 20): lothlorien, # Jungle for vanilla graphics
     (0, 78, 58): marsh,
     (255, 237, 76): desert,
-    (): coastal_desert
+    (167, 194, 143): desert_hill, # Coastal desert for vanilla graphics
+    (128, 100, 104): mordor_mountain, # Not in vanilla
+    (80, 75, 105): mordor_hill, # Not in vanilla
+    (51, 8, 18): mordor_grassland # Not in vanilla
 }
