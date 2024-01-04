@@ -6,7 +6,6 @@ def localize(provinces, regions, outfile, out_folder, starting_id, ending_id, se
         makedirs(out_folder)
 
     with open(f"{out_folder}/{outfile}", "w", encoding="ANSI") as wf:
-        wf.write(";x\n")
         wf.write("#####################;x\n##### PROVINCES #####;x {"
                  "\n#####################;x\n")
         i = starting_id

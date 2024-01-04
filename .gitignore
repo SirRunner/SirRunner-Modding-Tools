@@ -139,6 +139,7 @@ general_randomizer/
 event_generator/
 pop_generator/
 file_copier.py
+test/
 
 # Output files
 output/
